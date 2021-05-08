@@ -1,20 +1,20 @@
-package com.example.wishis.model
+package com.example.wishis.retrofit
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class Image (
-
+class CatNetworkEntity {
 
     @SerializedName("id")
     @Expose
     var id: Int,
 
+    @SerializedName("categoria")
+    @Expose
+    var categoria: String,
+
     @SerializedName("url")
     @Expose
     var url: String,
 
-    @SerializedName("categoria")
-    @Expose
-    var categoria: String,
-)
+}

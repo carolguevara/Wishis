@@ -4,6 +4,6 @@ typealias Categories = ArrayList<Category>
 
 data class Category (
 
-    val id: String,
+    val id: Int,
     val name: String
 )

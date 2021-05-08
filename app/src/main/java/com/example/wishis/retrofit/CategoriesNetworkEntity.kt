@@ -1,14 +1,18 @@
-package com.example.wishis.model
+package com.example.wishis.retrofit
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
+import com.example.wishis.model.Image
 
-class Image (
-
+data class CategoriesNetworkEntity (
 
     @SerializedName("id")
     @Expose
     var id: Int,
+
+    @SerializedName("name")
+    @Expose
+    var name: String,
 
     @SerializedName("url")
     @Expose
@@ -17,4 +21,6 @@ class Image (
     @SerializedName("categoria")
     @Expose
     var categoria: String,
-)
+
+
+    )
