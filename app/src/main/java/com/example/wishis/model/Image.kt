@@ -8,7 +8,7 @@ class Image (
 
     @SerializedName("id")
     @Expose
-    var id: Int,
+    var id: String,
 
     @SerializedName("url")
     @Expose

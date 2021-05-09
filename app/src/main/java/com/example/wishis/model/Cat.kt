@@ -1,7 +1,7 @@
 package com.example.wishis.model
 
 data class Cat(
-    var id: Int,
+    var id: String,
     var url: String,
     var categoria: String
 )
